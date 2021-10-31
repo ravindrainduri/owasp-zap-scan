@@ -4,7 +4,8 @@ parameters:
   
 jobs:
   - job: RunOwaspZapUiFullScan
-    pool: UKHO Ubuntu 1804
+    pool: 
+     vmImage: ubuntu-latest
   
     workspace:
       clean: all
