@@ -9,5 +9,4 @@ resources:
 jobs:
 - template: owasp-zap-ui-scan-template.yml@owasp-zap-scan
   parameters:
-    url: $(ApplicationUrl)
     publishAsTestResults: variables.PublishTestResults
