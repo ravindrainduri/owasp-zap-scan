@@ -2,8 +2,8 @@ resources:
   repositories:
     - repository: owaspzapui
       type: github
-      endpoint: UKHO
-      name: UKHO/owasp-zap-scan
+      endpoint: ravindrainduri
+      name: ravindrainduri/owasp-zap-scan
       ref: refs/heads/master
 
 jobs:
